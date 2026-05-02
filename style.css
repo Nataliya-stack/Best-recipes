@@ -1,0 +1,52 @@
+body {
+    background-color: darkgrey;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Castoro Titling', cursive;
+    color: rgb(116, 89, 21);
+    font-size: 60px;
+}
+
+.inputField {
+    display: flex;
+}
+
+#search {
+    flex: 1;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Castoro Titling', cursive;
+    color: rgb(116, 89, 21);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Castoro Titling', cursive;
+    color: rgb(116, 89, 21);
+    font-size: 25px;
+    width: 30%;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column; 
+    width: 33%;
+}
+
+img {
+    width: 90%;
+}
